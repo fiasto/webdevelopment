@@ -1,0 +1,108 @@
+body{
+    background-color:white ;
+    background-size: cover;
+    font-family: Verdana;
+}
+.header{
+    width: 100%;
+    height:250px;
+    background-color: #2098D1;
+}
+h1{
+    position: relative;
+    top:50px;
+    background-color: #2098D1;
+    margin: 0px 10px;
+    text-align: center;
+    padding:30px 0px 80px 0px;
+    
+    color:white ;
+}
+a{
+    background-color: #2098D1;
+    border-color: aliceblue;
+    margin-top: 30px;
+    padding: 20px 20px;
+    text-decoration: none;
+    color:white;
+    display: inline-block;
+    font-size: 20px;
+    transition: all 1s;
+}
+a:hover{
+    color:#E31C7C ; 
+    transform: scale(1.1);
+    margin-top: 20px;
+    border:2px solid black;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.currentpage{
+    padding: 10px 20px;
+    font-size: 20px;
+    transform: scale(1.1);
+    margin-top: 20px;
+    border:2px solid black;
+    background-color: black;
+    color:white;
+    border-radius: 20px;
+    display: inline-block;
+}
+.quotes{
+    color:black;
+    margin: 5px 10px;
+}
+p{
+    padding:10px 0px 0px 20px;
+    line-height: 25px;
+}
+.picview{ 
+    
+    margin-top: 20px;
+    width:450px;
+    height: 400px;
+    position: relative;
+    left: 40%;
+    border:3px solid #CBA8C7  ;
+    border-radius: 30px;
+    background-image: url("./IMG-20190403-WA0061.jpg");
+    background-size: cover;
+    animation-name: picview;
+    animation-duration: 115s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay:2s ;
+}
+.picview:hover{
+    transition: all 1s;
+    transform: scale(1.3);
+}
+@keyframes picview{
+ 
+  8%{background-image: url("./41.jpg");}
+  16%{background-image: url("./42.jpg");}
+  24%{background-image: url("./43.jpg");width:650px;}
+  32%{background-image: url("./44.jpg");}
+  40%{background-image: url("./45.jpg");}
+  48%{background-image: url("./46.jpg");}
+  56%{background-image: url("./47.jpg");}
+  64%{background-image: url("./48.jpg");}
+  72%{background-image: url("./49.jpg");}
+  80%{background-image: url("./50.jpg");}
+  88%{background-image: url("./51.jpg");}
+  100%{background-image: url("./52.jpg");}
+
+  
+}
+img{
+   
+    margin: 30px 20px 0px 35px;
+    transition: all 1s;
+}
+img:hover{
+    align-items: center;
+    transform: scale(1.1);
+    border-radius: 25px;
+    
+}
